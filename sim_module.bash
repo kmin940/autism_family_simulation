@@ -20,7 +20,7 @@ export OUT_DR="$SCRATCH/autism/"$1
 
 if test $# -ne 4
 then
-        echo "usage: run_simultation.bash out_dir num_replicates nfam param_rdata"
+        echo "usage: sim_module.bash out_dir num_replicates nfam param_rdata"
         exit 1
 fi
 
